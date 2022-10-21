@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  position: relative;
+  min-width: 150px;
+}
+.inputWrapper {
+  position: relative;
+  padding: 15px 10px;
+  border: 2px solid #336dbf;
+  border-radius: 5px;
+  /* background-color: white; */
+}
+.title {
+  position: absolute;
+  top: -9px;
+  left: 15px;
+  padding: 0px 5px;
+  background-color: white;
+  color: #336dbf;
+  font-size: 12px;
+}
+.input {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.inputText {
+  flex-grow: 1;
+  font-size: 16px;
+}
+.triangle {
+  align-self: center;
+  /* TODO fix vertical alignment, too close to bottom */
+}
+.listWrapper {
+  position: absolute;
+  background-color: white;
+  min-width: 100%;
+  max-height: 250px;
+  overflow: auto;
+  border-radius: 5px;
+  box-shadow: 2px 8px 15px gray;
+}
+.itemWrapper {
+  display: flex;
+  padding: 15px 10px;
+}
+.itemText {
+  flex-grow: 1;
+  font-size: 16px;
+  padding-left: 6px;
+  text-align: left;
+}
+.itemCheckbox {
+  border: 2px solid #747474;
+  border-radius: 3px;
+  width: 15px;
+  height: 15px;
+}
